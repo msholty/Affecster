@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="sobel filtering">
+</Property><Property Name="Solution File" Value="E:\Work\Shakil All\C#\Backup\sobel filtering.sln">
+</Property><Property Name="Date" Value="Saturday, September 18, 2010">
+</Property><Property Name="Time" Value="15:42 PM">
+</Property></Properties><Event ErrorLevel="0" Project="sobel filtering" Source="sobel filtering\sobel filtering.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="sobel filtering" Source="sobel filtering\sobel filtering.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="sobel filtering.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="sobel filtering.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="sobel filtering" Source="sobel filtering\sobel filtering.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
