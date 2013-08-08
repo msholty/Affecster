@@ -1,16 +1,22 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="media/css/style.css" media="screen" />
 	</head>
 	<body>
-		<nav class="main-nav right">
-			<ul>
-				<li><a href="#apps" class="inner-link">Apps</a></li>
-		        <li><a href="#pro" class="inner-link">Pro</a></li>
-		        <li><a href="/login">Log In</a></li>
-				<li><a href="/register?mp_source=1" class="callout">Register</a></li>
-			</ul>
-		</nav>
+		<header role="banner" class="page-header">
+			<div class="container o-hidden">
+		    	<a href="/"><img class="logo" src="media/img/affectster.png" height="64" width="190"></img></a>
+		    	<nav class="main-nav right">
+		      		<ul>
+		          		<li><a href="/login">Log In</a></li>
+		          		<li><a href="/register" class="callout">Register</a></li>
+		      		</ul>
+		    	</nav>
+			</div>
+			<div class="tagline">
+			</div>
+		</header>
+
 		<?php echo $this->layout()->content; ?>
 	</body>
 </html>

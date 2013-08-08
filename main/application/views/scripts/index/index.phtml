@@ -1,43 +1,38 @@
-<style>
-    a:link,
-    a:visited
-    {
-        color: #0398CA;
-    }
-
-    span#zf-name
-    {
-        color: #91BE3F;
-    }
-
-    div#welcome
-    {
-        color: #FFFFFF;
-        background-image: url(http://framework.zend.com/images/bkg_header.jpg);
-        width:  600px;
-        height: 400px;
-        border: 2px solid #444444;
-        overflow: hidden;
-        text-align: center;
-    }
-
-    div#more-information
-    {
-        background-image: url(http://framework.zend.com/images/bkg_body-bottom.gif);
-        height: 100%;
-    }
-</style>
-<div id="welcome">
-    <h1>Welcome to the <span id="zf-name">Zend Framework!</span></h1>
-
-    <h3>This is your project's main page</h3>
-
-    <div id="more-information">
-        <p><img src="http://framework.zend.com/images/PoweredBy_ZF_4LightBG.png" /></p>
-        <p>
-            Helpful Links: <br />
-            <a href="http://framework.zend.com/">Zend Framework Website</a> |
-            <a href="http://framework.zend.com/manual/en/">Zend Framework Manual</a>
-        </p>
-    </div>
+<div role="main">
+	<section class="raise container main" id="drop-zone">
+    	<div id="drop-instructions">
+  			<ol class="steps box-3">
+				<li class="box step">
+      				<div class="rel">
+        				<img alt="Upload Icon" height="60" src="https://d25ss6wjc6pfq2.cloudfront.net/assets/homepage/step_upload-5c80de3c4c07b6160ad47637d46f6810.png" width="60">
+        				<h4><span class="deem">1.</span><br>Link</h4>
+      				</div>
+      				<p class="clear">Copy n' Paste a Youtube video link in the box below</p>
+    			</li>
+    			<li class="box step">
+      				<div class="rel">
+				        <img alt="Share Icon" height="60" src="https://d25ss6wjc6pfq2.cloudfront.net/assets/homepage/step_share-eebb2fc394706d033bf0121231d671ea.png" width="60">
+				        <h4><span class="deem">2.</span><br>Allow</h4>
+      				</div>
+					<p class="clear">Affectster will ask to use your device's webcam. Make sure you press 'allow'!</p>
+    			</li>
+    			<li class="box step">
+      				<div class="rel">
+        				<img alt="Finished Icon" height="60" src="https://d25ss6wjc6pfq2.cloudfront.net/assets/homepage/step_fin-36e82905b52533d456ec7c80677c1499.png" width="60">
+        				<h4><span class="deem">3.</span><br>Explore</h4>
+      				</div>
+      				<p class="clear">Following the video you can explore other viewers' emotions!</p>
+    			</li>
+  			</ol>
+    		<div class="cta-contain">
+    			<form method="GET">
+					<input type="text" name="url" id="url">
+					<div class="main-cta green">
+	        			<a href="/watch">Upload!</a>
+	        			<input type="submit"></input>
+	      			</div>
+	      		</form>
+    		</div>
+		</div>
+	</section>
 </div>
