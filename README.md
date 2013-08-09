@@ -3,6 +3,6 @@ Affectster
 
 Affectster.com
 
-Ideas:
+Will be changing to Affecster, I'll just create a new repo and move/rename files to that repo and then share it.
 
-* Thinking of changing name from Affectster to Affecster, seems to roll off the tongue better
+I bought affecster.com
