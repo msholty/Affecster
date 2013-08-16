@@ -19,7 +19,23 @@
         </layoutScriptsDirectory>
       </layoutsDirectory>
       <modelsDirectory/>
-      <modulesDirectory enabled="false"/>
+      <modulesDirectory>
+        <moduleDirectory moduleName="authentication">
+          <configsDirectory enabled="true"/>
+          <controllersDirectory/>
+          <formsDirectory enabled="true"/>
+          <layoutsDirectory enabled="true">
+            <layoutScriptsDirectory enabled="true"/>
+          </layoutsDirectory>
+          <modelsDirectory/>
+          <servicesDirectory enabled="false"/>
+          <viewsDirectory>
+            <viewScriptsDirectory/>
+            <viewHelpersDirectory/>
+            <viewFiltersDirectory/>
+          </viewsDirectory>
+        </moduleDirectory>
+      </modulesDirectory>
       <servicesDirectory enabled="false"/>
       <viewsDirectory>
         <viewScriptsDirectory>
